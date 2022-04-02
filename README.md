@@ -9,7 +9,7 @@ rspec spec/simulation_spec.rb
 ### Code
 All the required code is in `lib` folder. 
 
-There are just 3 main classes `Simulation`, `Table`, and 'Robot`.
+There are just 3 main classes `Simulation`, `Table`, and `Robot`.
 Simulation class takes the command strings and processes them. Table and Robot do their respective jobs.
 
 The direction classes `North`, `South`, `East`, and `West` sets the direction and decide the move and final facing direction.
