@@ -1,5 +1,11 @@
 # Toy Robot
 
+### Instructions to run
+```
+bundle install
+rspec spec/simulation_spec.rb
+```
+
 #### What is this ?
 
 Toy Robot is a ruby coding exercise that we get our potential candidates  complete for us (Mable) to understand their capabilities.  
