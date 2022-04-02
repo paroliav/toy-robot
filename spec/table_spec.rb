@@ -20,7 +20,7 @@ RSpec.describe Table do
       let(:x) { 4 }
       let(:y) { 3 }
 
-      it { expect(subject).to be_truthy }
+      it { is_expected.to be_truthy }
 
     end
 
@@ -28,14 +28,14 @@ RSpec.describe Table do
       let(:x) { 1 }
       let(:y) { 5 }
 
-      it { expect(subject).to be_falsey }
+      it { is_expected.to be_falsey }
     end
 
     context 'when move is outside boundaries (-1x4)' do
       let(:x) { -1 }
       let(:y) { 4 }
 
-      it { expect(subject).to be_falsey }
+      it { is_expected.to be_falsey }
     end
   end
 
