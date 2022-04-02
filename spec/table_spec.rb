@@ -24,9 +24,16 @@ RSpec.describe Table do
 
     end
 
-    context 'when move is outside boundaries' do
+    context 'when move is outside boundaries (1x5)' do
       let(:x) { 1 }
       let(:y) { 5 }
+
+      it { expect(subject).to be_falsey }
+    end
+
+    context 'when move is outside boundaries (-1x4)' do
+      let(:x) { -1 }
+      let(:y) { 4 }
 
       it { expect(subject).to be_falsey }
     end
